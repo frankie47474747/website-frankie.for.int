@@ -1,0 +1,27 @@
+/* Allgemeine Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ff0000; /* Hintergrundfarbe auf Weiß setzen */
+    color: #ffffff; /* Textfarbe auf Weiß setzen */
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Mindesthöhe auf 100% des Viewports setzen */
+    justify-content: space-between; /* Elemente vertikal auf der Seite verteilen */
+}
+
+h2 {
+    text-align: center; /* Titel zentrieren */
+}
+
+/* Stil für den Link "Zurück zur Startseite" */
+.back-to-home {
+    text-align: center; /* Text zentrieren */
+    margin-bottom: 20px; /* Unterer Abstand */
+}
+
+.back-to-home a {
+    color: #ffffff; /* Linkfarbe auf Weiß setzen */
+    text-decoration: none; /* Keine Unterstreichung für Links */
+}

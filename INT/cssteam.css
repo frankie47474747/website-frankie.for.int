@@ -1,0 +1,41 @@
+/* Allgemeine Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Zusätzliche CSS-Stile für das Bild */
+.image-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Horizontal zentriert */
+    align-items: center; /* Vertikal zentriert */
+    height: 100vh; /* Vollständige Höhe des Viewports */
+}
+
+.image-container img {
+    max-width: 100%; /* Maximale Breite des Bildes */
+    max-height: 100%; /* Maximale Höhe des Bildes */
+}
+
+/* Zusätzliche CSS-Stile für den Textcontainer unter dem Bild */
+.text-container {
+    margin-top: 10px; /* Abstand nach oben */
+    text-align: center; /* Zentrieren des Textes */
+    color: #ffffff; /* Textfarbe */
+}
+
+/* Zusätzliche CSS-Stile für den Zurück zur Website-Link */
+.back-to-website {
+    text-align: center; /* Zentrieren des Textes */
+    position: fixed; /* Fixieren am unteren Rand */
+    bottom: 20px; /* Abstand vom unteren Rand */
+    width: 100%; /* Vollständige Breite */
+}
+
+.back-to-website a {
+    text-decoration: none; /* Keine Unterstreichung für den Link */
+    color: #ffffff; /* Textfarbe */
+    font-weight: bold; /* Fettschrift */
+}

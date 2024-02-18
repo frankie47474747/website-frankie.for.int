@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Belegte Paninis</title>
+    <link rel="stylesheet" href="cssproduktinfo.css">
+    <style>
+        /* CSS-Stile für die Tabelle */
+        table {
+            margin: 20px auto; /* Zentrieren der Tabelle mit Abstand */
+            border-collapse: collapse; /* Zusammenführen der Tabellengrenzen */
+            width: 80%; /* Breite der Tabelle */
+        }
+
+        th, td {
+            padding: 10px; /* Innenabstand */
+            border-bottom: 1px solid #ff0000; /* Unterstrich */
+            text-align: left; /* Linksbündige Ausrichtung */
+        }
+
+        th {
+            background-color: #ff0000; /* Hintergrundfarbe der Kopfzeile */
+            color: #ffffff; /* Textfarbe in Weiß */
+            font-weight: bold; /* Fettschrift */
+        }
+
+        tr:nth-child(even) {
+            background-color: #ff0000; /* Hintergrundfarbe für gerade Zeilen */
+        }
+    </style>
+</head>
+<body>
+    <h2 style="text-align: center;">Belegte Paninis</h2>
+    
+    <!-- Tabelle mit den Panini-Informationen -->
+    <table>
+        <tr>
+            <th>Panini</th>
+            <th>Zutaten</th>
+            <th>Preis</th>
+        </tr>
+        <tr>
+            <td>Schinken-Panini</td>
+            <td>Schinken, Käse, Tomate, Rucola</td>
+            <td>3,50 €</td>
+        </tr>
+        <tr>
+            <td>Mozzarella-Pesto-Panini</td>
+            <td>Mozzarella, Pesto, Tomate, Basilikum</td>
+            <td>4,00 €</td>
+        </tr>
+        <tr>
+            <td>Vegetarisches Panini</td>
+            <td>Avocado, Paprika, Zucchini, Käse</td>
+            <td>3,80 €</td>
+        </tr>
+    </table>
+
+    <!-- Link "Zurück zur Startseite" -->
+    <div class="back-to-home">
+        <p><a href="website.html">Zurück zur Startseite</a></p>
+    </div>
+</body>
+</html>
